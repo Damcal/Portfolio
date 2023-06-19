@@ -412,8 +412,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("../img/img4.JPG");
+  height: 88vh;
+  background: url("../img/img1.JPG");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    /* background: rgba(57, 55, 55, 0.8); */
     position: absolute;
     bottom: 0;
     top: 0;
@@ -529,7 +529,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/img1.JPG") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/img2.JPG") fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -662,13 +662,14 @@ section {
 }
 
 .testimonials{
-  background-image: linear-gradient(to bottom, rgba(39, 39, 39, 0.696), rgba(15, 13, 14, 0.86)), url('../img/testimonial4.jpeg');
+  background-image: linear-gradient(to bottom, rgba(39, 39, 39, 0.696), rgba(15, 13, 14, 0.86)), url('../img/testimonial1.jpeg');
   background-position:center;
   background-size: contain;
   background-repeat: no-repeat;
   width: 98vw;
-  height: 100vh;
+  height: 88vh;
   color: white;
+  margin-top: -300px;
   
 
 }

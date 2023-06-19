@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: url("../img/IMG1.jpg");
+  background: url("../img/testimonials3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -486,12 +486,6 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0px ;
-
-  width: 100%;
-}
-
-.firstpage{
   padding: 60px 0px ;
 
   width: 100%;
